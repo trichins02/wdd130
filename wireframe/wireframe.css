@@ -1,0 +1,11 @@
+.logo{
+    width: 50%;
+}
+#homelink1{
+    background-color: yellow;
+    min-height: 400px;
+}
+nav{
+    text-align: center;
+    margin: 0 auto;
+}
