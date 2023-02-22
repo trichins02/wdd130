@@ -1,6 +1,6 @@
 .home-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 #content {
     max-width: 1600px;
@@ -176,6 +176,9 @@ main section img {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+}
+#hero-img {
+    width: 100%;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
